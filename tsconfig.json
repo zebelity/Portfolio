@@ -21,9 +21,6 @@
     "noFallthroughCasesInSwitch": true,
 
     "baseUrl": "./src",
-    "paths": {
-      "@shared/*": ["../../backend/src/shared/*"]
-    }
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
