@@ -10,7 +10,7 @@ export default function About() {
           <div className="mac-button extend-button"></div>
         </div>
         <div className="mac-content">
-          <h2>About</h2>
+          <h2>ABOUT ME</h2>
           <div className="about-content">
           <pre>
               {`

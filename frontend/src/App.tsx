@@ -4,10 +4,16 @@ import './App.css'
 import About from 'components/About'
 import Projects from 'components/Projects'
 import Skills from 'components/Skills'
-import Contact from 'components/Contact'
+import Footer from 'components/Footer'
 
 function App () {
   const [message, setMessage] = useState<string|null>(null)
+
+  const recipientEmail = 'chatkamon_bee@hotmail.com';
+  const emailSubject = '';
+  const emailBody = '';
+
+  const mailtoLink = `mailto:${recipientEmail}?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
 
   useEffect(() => {
     setTimeout(async () => {
@@ -27,7 +33,7 @@ function App () {
             <li className="nav-item"><a href="#projects">Projects</a></li>
             <li className="nav-item"><a href="https://drive.google.com/file/d/1jwQplm_Z1t6Xvg_4MDp_gwSvaOiL-RN6/view?usp=sharing" target="_blank">Resume</a></li>
             <li className="nav-item"><a href="#skills">Skills</a></li>
-            <li className="nav-item"><a href="#contact">Contact</a></li>
+            <li className="nav-item"><a href={mailtoLink}>Contact me</a></li>
           </ul>
         </div>
         <div className='navbar-right'>
@@ -59,10 +65,13 @@ function App () {
           <img src="../public/profile_image.jpeg" alt="profileImg" />
         </div>
       </div>
+
       <br/><About /><br/>
       <br/><Projects /><br/>
       <br/><Skills /><br/>
-      <br/><Contact /><br/>
+
+      < Footer/>
+      
     </div>
     </>
   )

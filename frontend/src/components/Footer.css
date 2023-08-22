@@ -1,0 +1,32 @@
+.footer {
+  background-color: #FCEEEE;
+  color: #100506;
+  text-align: center;
+  padding: 20px 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.footer p:before,
+.footer p:after {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 2px;
+  background-color: #100506;
+  margin: 0 10px;
+}
+
+.footer p:before {
+  margin-left: 0;
+}
+
+.footer p:after {
+  margin-right: 0;
+}

@@ -18,6 +18,7 @@
   width: 100%;
   z-index: 100;
   background-color: #FCEEEE;
+  font-family: 'Saira Stencil One', cursive;
 }
 
 .navbar-left ul,
@@ -74,6 +75,8 @@
 .home-header {
   flex: 1; /* Expand to take available space */
   text-align: left;
+  font-family: 'Tilt Warp', cursive;
+  font-size: 26px;
 }
 
 .img-profile {

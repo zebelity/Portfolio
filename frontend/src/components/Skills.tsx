@@ -3,7 +3,7 @@ import './Skills.css'
 export default function Skills() {
   return (
     <section id="skills" className="skills-section">
-      <h2>Skills</h2>
+      <h2>SKILLS</h2>
       <div className='notebook-monitor'>
         <div className='notebook-screen'>
           <ul className='screen'>

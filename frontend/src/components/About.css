@@ -5,6 +5,8 @@
   padding: 20px;
   border-radius: 10px;
   margin: 20px;
+  font-family: 'Saira Stencil One', cursive;
+  font-size: 28px;
 }
 
 .mac-window {
@@ -48,7 +50,7 @@
 
 
 .about-content {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.6;
   color: #111D2C;
   font-weight: 800;
