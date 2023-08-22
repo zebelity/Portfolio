@@ -53,5 +53,7 @@ h1 {
 }
 
 .message {
-  color: #bce409
+  color: #F3BABA;
+  font-size: 20px;
+  font-weight: 800;
 }

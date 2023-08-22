@@ -1,0 +1,66 @@
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.mac-window {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.mac-titlebar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #D2DDEE;
+  border-bottom: 1px solid #89A6D2;
+}
+
+.mac-button {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.close-button {
+  background-color: #d62828;
+}
+
+.minimize-button {
+  background-color: #f77f00;
+}
+
+.extend-button {
+  background-color: #6a994e;
+}
+
+.mac-content {
+  padding: 20px;
+  background-color: #F0F4F9;
+  text-align: center;
+}
+
+
+.about-content {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #111D2C;
+  font-weight: 800;
+  overflow: auto;
+  text-align: left;
+}
+
+.about-content pre {
+  white-space: pre-wrap;
+  font-family: 'Courier New', monospace;
+  margin: 0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
