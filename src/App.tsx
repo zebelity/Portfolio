@@ -1,5 +1,3 @@
-import { useEffect, useState } from 'react'
-import { getGreeting } from './api'
 import './App.css'
 import About from 'components/About'
 import Projects from 'components/Projects'
@@ -7,21 +5,12 @@ import Skills from 'components/Skills'
 import Footer from 'components/Footer'
 
 function App () {
-  const [message, setMessage] = useState<string|null>(null)
 
   const recipientEmail = 'chatkamon_bee@hotmail.com';
   const emailSubject = '';
   const emailBody = '';
 
   const mailtoLink = `mailto:${recipientEmail}?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
-
-  useEffect(() => {
-    setTimeout(async () => {
-      const result = await getGreeting()
-
-      setMessage(result.message)
-    }, 500)
-  })
 
   return (
     <>
@@ -56,10 +45,7 @@ function App () {
         <div className='home-header'>
           <h1>Hello! I'm Bee.</h1>
           <h1>A Software Engineer based in Sydney.</h1>
-          {message !== null
-            ? <div className='code message'>{JSON.stringify({ message }, null)}</div>
-            : <div className='code'>Loading server response...</div>
-          }
+          <p className='message'>"I looked back to my engineering roots, something I always had a keen interest in growing up."</p>
         </div>
         <div className='img-profile'>
           <img src="../public/profile_image.jpeg" alt="profileImg" />

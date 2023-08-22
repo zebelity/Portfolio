@@ -4,7 +4,7 @@
 }
 
 .page-wrapper {
-  padding-top: 60px; /* Adjust this value to match the height of the fixed navbar */
+  padding-top: 60px;
 }
 
 .navbar {
@@ -60,20 +60,20 @@
 }
 
 .navbar-right img {
-  transition: transform 0.3s; /* Add transition for the transformation */
+  transition: transform 0.3s;
 }
 
 .navbar-right img:hover {
-  transform: scale(1.1); /* Apply scale transformation on hover */
+  transform: scale(1.1);
 }
 
 .content-header {
   display: flex;
-  align-items: center; /* Vertically align items */
+  align-items: center;
 }
 
 .home-header {
-  flex: 1; /* Expand to take available space */
+  flex: 1;
   text-align: left;
   font-family: 'Tilt Warp', cursive;
   font-size: 26px;
@@ -81,13 +81,21 @@
 
 .img-profile {
   max-width: 40%;
-  margin-left: 20px; /* Add spacing between home header and image */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-  padding: 10px; /* Add padding to create a frame */
-  border-radius: 8px; /* Round the corners */
+  margin-top: 40px;
+  margin-left: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px; 
+  border-radius: 8px; 
 }
 
 .img-profile img {
-  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  max-width: 100%;
   display: block;
+}
+
+.content-header .message {
+  color: #F3BABA;
+  font-size: 20px;
+  font-weight: 800;
+  font-family:'Courier New', Courier, monospace;
 }

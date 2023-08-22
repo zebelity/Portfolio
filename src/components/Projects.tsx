@@ -6,6 +6,7 @@ export default function Projects() {
     <section id="projects" className="projects-section">
       <h2>PROJECTS</h2>
       <div className="project-wrapper">
+
         <div className="project">
           <div className="project-img">
             <img src="../public/happyteatime_homepage.png" alt="happyteatime_homepage" />
@@ -25,12 +26,9 @@ export default function Projects() {
             </ul>
           </div>
         </div>
+
         <div className="project">
-          <div className="project-img">
-            <img className='servo' src="../public/servoApp.png" alt="servoapp" />
-            <img className='servo' src="../public/servoApp2.png" alt="servoapp" />
-          </div>
-          <div className="project-content">
+          <div className="project-content project2">
             <h3>Servo App</h3>
             <h4>Fullstack CRUD App (Traditional Full-Page Refresh) - Group Project</h4>
             <p>A single page application done in HTML, CSS and Javascript with express. That utilizes the Google Maps API, Google Geocoding API and FuturesAPI to help users search for all petrol stations in Australia. The application provides users with the latest prices of oil and gas allows users to find their nearest stations.</p>
@@ -42,7 +40,12 @@ export default function Projects() {
               </li>
             </ul>
           </div>
+          <div className="project-img">
+            <img className='servo' src="../public/servoApp.png" alt="servoapp" />
+            <img className='servo' src="../public/servoApp2.png" alt="servoapp" />
+          </div>
         </div>
+
         <div className="project">
           <div className="project-img">
             <img src="../public/wanderplan_loginpage.png" alt="wanderplan" />
