@@ -43,7 +43,7 @@ function App () {
           <p className='message'>"I looked back to my engineering roots, something I always had a keen interest in growing up."</p>
         </div>
         <div className='img-profile'>
-          <img src="../public/profile_image.jpeg" alt="profileImg" />
+          <img src="/profile_image.jpeg" alt="profileImg" />
         </div>
       </div>
 

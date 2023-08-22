@@ -9,9 +9,9 @@ export default function Projects() {
 
         <div className="project">
           <div className="project-img">
-            <img src="../public/happyteatime_homepage.png" alt="happyteatime_homepage" />
-            <img src="../public/happyteatime_reviewpage.png" alt="happyteatime_reviewpage" />
-            <img src="../public/happyteatime_loginpage.png" alt="" />
+            <img src="/happyteatime_homepage.png" alt="happyteatime_homepage" />
+            <img src="/happyteatime_reviewpage.png" alt="happyteatime_reviewpage" />
+            <img src="/happyteatime_loginpage.png" alt="happyteatime_loginpage" />
           </div>
           <div className="project-content">
             <h3>Happy TeaTime App</h3>
@@ -41,16 +41,16 @@ export default function Projects() {
             </ul>
           </div>
           <div className="project-img">
-            <img className='servo' src="../public/servoApp.png" alt="servoapp" />
-            <img className='servo' src="../public/servoApp2.png" alt="servoapp" />
+            <img className='servo' src="/servoApp.png" alt="servoapp" />
+            <img className='servo' src="/servoapp2.png" alt="servoapp2" />
           </div>
         </div>
 
         <div className="project">
           <div className="project-img">
-            <img src="../public/wanderplan_loginpage.png" alt="wanderplan" />
-            <img src="../public/wanderplan_homepage.png" alt="wanderplan" />
-            <img src="../public/wanderplan_itempage.png" alt="wanderplan" />
+            <img src="/wanderplan_loginpage.png" alt="wanderplan" />
+            <img src="/wanderplan_homepage.png" alt="wanderplan" />
+            <img src="/wanderplan_itempage.png" alt="wanderplan" />
           </div>
           <div className="project-content">
             <h3>Wander Plan</h3>
