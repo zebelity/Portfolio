@@ -7,6 +7,28 @@ export default function Projects() {
       <h2>PROJECTS</h2>
       <div className="project-wrapper">
 
+      <div className="project">
+          <div className="project-content project2">
+            <h3>JOJO Jacket-On Jacket-Off App</h3>
+            <h4>Fullstack Weather application - Typescript </h4>
+            <p>JOJO is designed to make the decision of wearing a jacket as easy as possible. It combines user preferences with real-time weather data to provide clear and instant recommendations - "Jacket ON" or "Jacket OFF."</p>
+            <p><strong>Technologies used</strong>: TypeScript | React | Express | Node.js | Google Geocoding API | Weather API | Trello | Render </p>
+            <ul>
+              <li>
+                <a className='jojoapp' href="https://github.com/zebelity/JOJO-JacketON-JacketOff-app" target="_blank">
+                <img alt="servoapp" src="https://img.shields.io/badge/JOJO_App-%23D3DFEE?style=for-the-badge&logo=github&logoColor=%23181717"/></a>
+                <a className='jojoapp' href="https://jojo-frontend.onrender.com/" target="_blank">
+                <img alt="demo" src="https://img.shields.io/badge/Demo-%23fff?style=for-the-badge&logo=render&logoColor=%23181717"/></a>
+              </li>
+            </ul>
+          </div>
+          <div className="project-img">
+            <img className='jojoapp' src="/jojoapp_homepage.png" alt="jojoapp" />
+            <img className='jojoapp' src="/jojoapp_location.png" alt="jojoapp2" />
+            <img className='jojoapp' src="/jojoapp_preferences.png" alt="jojoapp3" />
+          </div>
+        </div>
+
         <div className="project">
           <div className="project-img">
             <img src="/happyteatime_homepage.png" alt="happyteatime_homepage" />
