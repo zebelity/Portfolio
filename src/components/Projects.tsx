@@ -8,10 +8,35 @@ export default function Projects() {
       <div className="project-wrapper">
 
       <div className="project">
+          <div className="project-img">
+            <img src="/Schema_Wanderplan.png" alt="wanderplan" />
+            <img src="/uxui_1.png" alt="wanderplan" />
+            <img src="/uxui_2.png" alt="wanderplan" />
+          </div>
+          <div className="project-content">
+            <h3>Wander Plan (On Process...)</h3>
+            <h4>MERN-Stack CRUD App, Token-Based Authentication, Typescript that development from my old Wander plan project when I was study. </h4>
+            <p>In the Wander Plan project, I began with competitive and market research to understand user needs and the current landscape, followed by a detailed analysis to define the app's requirements and user personas. I designed a comprehensive database schema and planned the UX/UI using Figma, creating wireframes for visual guidance. Then I'll diagram the system's architecture  for clarity, and I'll track development progress using a Trello board, ensuring a structured approach from conception to execution.
+            </p>
+            <p><strong>Deployed site</strong> by Render</p>
+            <p><strong>Technologies used</strong>: TypeScript | React | Express | Node.js | Postgres SQL | bcrypt </p>
+            <ul>
+              <li>
+                {/* <a className='wanderplan' href="https://github.com/zebelity/Wander-plan" target="_blank">
+                <img alt="wanderplan" src="https://img.shields.io/badge/Wander_Plan-%23D3DFEE?style=for-the-badge&logo=github&logoColor=%23181717"/></a>
+                <a className='wanderplan' href="https://wander-plan.onrender.com/" target="_blank">
+                <img alt="demo" src="https://img.shields.io/badge/Demo-%23fff?style=for-the-badge&logo=render&logoColor=%23181717"/>
+                </a> */}
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      <div className="project">
           <div className="project-content project2">
             <h3>JOJO Jacket-On Jacket-Off App</h3>
             <h4>Fullstack Weather application - Typescript </h4>
-            <p>JOJO is designed to make the decision of wearing a jacket as easy as possible. It combines user preferences with real-time weather data to provide clear and instant recommendations - "Jacket ON" or "Jacket OFF."</p>
+            <p>JOJO is designed to make the decision of wearing a jacket as easy as possible. It combines user preferences with real-time weather data to provide clear and instant recommendations - "Jacket ON" or "Jacket OFF based on the weather at their current location. Also user can search to check at other location as their desire"</p>
             <p><strong>Technologies used</strong>: TypeScript | React | Express | Node.js | Google Geocoding API | Weather API | Trello | Render </p>
             <ul>
               <li>
@@ -68,29 +93,6 @@ export default function Projects() {
           </div>
         </div>
 
-        <div className="project">
-          <div className="project-img">
-            <img src="/wanderplan_loginpage.png" alt="wanderplan" />
-            <img src="/wanderplan_homepage.png" alt="wanderplan" />
-            <img src="/wanderplan_itempage.png" alt="wanderplan" />
-          </div>
-          <div className="project-content">
-            <h3>Wander Plan</h3>
-            <h4>MEN-Stack CRUD App, Traditional Full-Page Refresh App with Optional Inclusion of Some Client-Side Rendering. </h4>
-            <p>The application allows users to add itinerary items to their trips, including flights, car trips, hotels, and sightseeing activities. Users can specify the type of each itinerary item, along with relevant details such as location, time, and booking references. To ensure privacy and personalized experiences, the application provides user authentication functionality. Users need to log in and access their own trips and itineraries.</p>
-            <p><strong>Deployed site</strong> by Render</p>
-            <p><strong>Technologies used</strong>: JavaScript | HTML | CSS | Express | Node.js | EJS | Postgres SQL | bcrypt </p>
-            <ul>
-              <li>
-                <a className='wanderplan' href="https://github.com/zebelity/Wander-plan" target="_blank">
-                <img alt="wanderplan" src="https://img.shields.io/badge/Wander_Plan-%23D3DFEE?style=for-the-badge&logo=github&logoColor=%23181717"/></a>
-                <a className='wanderplan' href="https://wander-plan.onrender.com/" target="_blank">
-                <img alt="demo" src="https://img.shields.io/badge/Demo-%23fff?style=for-the-badge&logo=render&logoColor=%23181717"/>
-</a>
-              </li>
-            </ul>
-          </div>
-        </div>
       </div>
     </section>
   );
