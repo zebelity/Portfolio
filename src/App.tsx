@@ -15,7 +15,7 @@ function App () {
           <ul>
             <li className="nav-item"><a href="#about">About</a></li>
             <li className="nav-item"><a href="#projects">Projects</a></li>
-            <li className="nav-item"><a href="https://drive.google.com/file/d/1jwQplm_Z1t6Xvg_4MDp_gwSvaOiL-RN6/view?usp=sharing" target="_blank">Resume</a></li>
+            <li className="nav-item"><a href="https://drive.google.com/file/d/1OdvbUxillt6KO6GMO4bSI3KTvlU8RYTq/view?usp=sharing" target="_blank">Resume</a></li>
             <li className="nav-item"><a href="#skills">Skills</a></li>
             <li className="nav-item"><a href="#contact">Contact me</a></li>
           </ul>
